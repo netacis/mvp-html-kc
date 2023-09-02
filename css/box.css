@@ -1,0 +1,15 @@
+.box {
+	background: var(--white);
+	border-radius: 1rem;
+	max-inline-size: 34rem;
+	padding: 4rem;
+	gap: 2rem;
+	display: inline-flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Afecta a los h2 dentro de la caja */
+/* .box > .headline2 {
+
+} */

@@ -1,0 +1,9 @@
+.wrapper {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	max-inline-size: 90rem; 
+	max-block-size: 85.375rem;
+	overflow: auto;
+	gap: 3rem;
+}

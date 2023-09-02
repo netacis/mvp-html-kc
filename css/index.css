@@ -1,0 +1,50 @@
+@import url("./fonts.css");
+@import url("./body.css");
+@import url("./wrapper.css");
+@import url("./box.css");
+@import url("./row.css");
+@import url("./styles.css");
+@import url("./button.css");
+@import url("./input.css");
+@import url("./icons.css");
+
+
+:root {
+	font-size: 16px;
+
+	/* Primarios */
+	--primary: #788D63;
+	--secondary: #679767;
+	--greenLight: #B1BBA2;
+	--golden10: #DECFB1;
+	--golden20: #A18B66;
+	--black: #000000;
+	--dark: #373737;
+	--gray: #737373;
+	--white: #FFFFFF;
+	--background: #F5F2ED;
+	/* Indicadores */
+	--gray10: #E0DFDE;
+	--gray20: #8F8F8F;
+	--blue10: #D1E4F2;
+	--blue20: #528CC2;
+	--yellow10: #FFEE9B;
+	--yellow20: #BD8E34;
+	--orange10: #FFD6A6;
+	--orange20: #FE7844;
+	--orange30: #BD7034;
+	--brown10: #EECDB8;
+	--brown: #8B7364;
+	--green10: #C6EAC4;
+	--green20: #679767;
+	--shadow: rgba(0, 0, 0, 0.25);
+	--baseFontFamily: Jost, Helvetica, sans-serif;
+	--headline1: normal 5rem/normal var(--baseFontFamily) var(--primary);
+	--headline2: bold 1.5rem/1.75rem var(--basefontFamily);
+	--basefont: normal 0.875rem/1.375rem var(--basefontFamily);
+	--basefontBold: bold 0.875rem/1.375rem var(--basefontFamily);
+	--button: bold 0.875rem/1rem var(--basefontFamily);
+	--small: normal .75em/normal var(--basefontFamily);
+
+	font-family: var(--baseFontFamily);
+}
